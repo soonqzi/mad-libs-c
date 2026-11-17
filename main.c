@@ -3,7 +3,7 @@
 
 int main() {
 
-    char noun [];
+    char noun [50];
 
     return 0;
 }
