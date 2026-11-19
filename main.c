@@ -9,11 +9,11 @@ int main() {
     char adjective1[50] = "";  
     char adjective2[50] = ""; 
 
-    printf("Enter an adjective (description): ");
+    printf("Enter an adjective: ");
     fgets(adjective1, sizeof(adjective1), stdin);
     adjective1[strlen(adjective1) - 1] = '\0';
 
-    printf("Enter a noun (animal or person): "); 
+    printf("Enter a noun (animal/person): "); 
     fgets(noun, sizeof(noun), stdin); 
     noun[strlen(noun) - 1] = '\0';
 
@@ -25,7 +25,7 @@ int main() {
     fgets(verb2, sizeof(verb2), stdin);
     verb2[strlen(verb2) - 1] = '\0';
 
-    printf("Enter an adjective again (description): ");
+    printf("Enter one more adjective: ");
     fgets(adjective2, sizeof(adjective2), stdin); 
     adjective2[strlen(adjective2) - 1] = '\0';
 
@@ -33,6 +33,44 @@ int main() {
     printf("I wasn't sure if it was %s or %s, so I went and took a closer look.\n", verb1, verb2);
     printf("It was incredibly %s, but also a little %s.\n", adjective1, adjective2);
     printf("Then I realised...I was that %s.\n", noun);
+
+    char input; 
+    printf("\nWant to play again? (y/n): ");
+    scanf(" %c", &input);
+
+    if (input == 'y' || input == 'Y') {
+        printf("\nAlright, here's another game. \n\n");
+        char nouna [50] = "";
+        char verba [50] = "";
+        char verbb[50] = "";
+        char adjectivea[50] = "";  
+        char adjectiveb[50] = ""; 
+
+        printf("Enter an adjective: ");
+        fgets(adjectivea, sizeof(adjectivea), stdin);
+        adjectivea[strlen(adjectivea) - 1] = '\0';
+
+        printf("Enter a noun (animal/person): "); 
+        fgets(nouna, sizeof(nouna), stdin); 
+        nouna[strlen(nouna) - 1] = '\0';
+
+        printf("Enter a verb (ending with -ing): "); 
+        fgets(verba, sizeof(verba), stdin); 
+        verba[strlen(verba) - 1] = '\0';
+
+        printf("Enter another verb (also ending with -ing): ");
+        fgets(verbb, sizeof(verbb), stdin);
+        verbb[strlen(verbb) - 1] = '\0';
+
+        printf("Enter one more adjective: ");
+        fgets(adjectiveb, sizeof(adjectiveb), stdin); 
+        adjectiveb[strlen(adjectiveb) - 1] = '\0';
+
+        printf("\ngarb\n");
+    }
+    else {
+        printf("Okay, bye then!\n");
+    }
 
     return 0;
 }

@@ -1,6 +1,6 @@
 # Mat Libs Game in C
 
-A mini software project, programmed in C. Made to kickstart my journey in tech, this program helps me learn and practice progrmaming fundamentals, as well as version control with Git and GitHub. 
+A mini software project, programmed in C. A way for me to practice learning how to use the char and fgets function, as well as the string format specifier %s to get string input from the user. 
 
 ## Features
 
@@ -45,7 +45,7 @@ It should display the current version of the C compiler you're using.
 - Click on msys64 > ucrt64 > bin > gcc.exe
 - Right click on gcc.exe > properties > copy the file location.
 - Search for 'environment variables' in your Windows system, and click on 'Edit the system environment variables'.
-- Click environment variables > select path > edit > new, then paste the path (its most likely C:\msys54\ucrt64\bin).
+- Click environment variables > path > edit > new. Then, paste the path (its most likely C:\msys54\ucrt64\bin).
   Press OK and you're done.
 
 ### macOS
