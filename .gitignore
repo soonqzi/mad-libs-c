@@ -1,0 +1,17 @@
+# compiled programs
+main
+main.exe
+*.o
+*.exe
+
+# IDE settings
+.vscode/
+
+# compiled executables
+main.exe
+
+# object files
+*.o
+
+# debug files
+*.out

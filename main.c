@@ -29,12 +29,6 @@ int main() {
     fgets(adjective2, sizeof(adjective2), stdin); 
     adjective2[strlen(adjective2) - 1] = '\0';
 
-    printf("%s\n", noun);
-    printf("%s\n", verb1); 
-    printf("%s\n", verb2);
-    printf("%s\n", adjective1);
-    printf("%s\n", adjective2);
-
     printf("\nThere was this %s in the distance.\n", noun);
     printf("I wasn't sure if it was %s or %s, so I went and took a closer look.\n", verb1, verb2);
     printf("It was incredibly %s, but also a little %s.\n", adjective1, adjective2);
