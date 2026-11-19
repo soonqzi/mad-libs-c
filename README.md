@@ -83,13 +83,13 @@ sudo apt-get update
 1. Clone the repository
 
 ```
-git clone https://github.com/soonqzi/shopping-cart-c.git
+git clone https://github.com/soonqzi/mad-libs-c.git
 ```
 
 2. Enter the project folder
 
 ```
-cd shopping-cart-c
+cd mad-libs-c
 ``` 
 
 3. Run the application.
