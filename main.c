@@ -43,12 +43,13 @@ int main() {
         char nouna [50] = "";
         char verba [50] = "";
         char verbb[50] = "";
-        char adjectivea[50] = "";  
-        char adjectiveb[50] = ""; 
-
+        char adjective0[50] = "";
+        char adjective00[50] = "";
+        
         printf("Enter an adjective: ");
-        fgets(adjectivea, sizeof(adjectivea), stdin);
-        adjectivea[strlen(adjectivea) - 1] = '\0';
+        getchar();
+        fgets(adjective0, sizeof(adjective0), stdin);
+        adjective0[strlen(adjective0) - 1] = '\0';
 
         printf("Enter a noun (animal/person): "); 
         fgets(nouna, sizeof(nouna), stdin); 
@@ -63,13 +64,17 @@ int main() {
         verbb[strlen(verbb) - 1] = '\0';
 
         printf("Enter one more adjective: ");
-        fgets(adjectiveb, sizeof(adjectiveb), stdin); 
-        adjectiveb[strlen(adjectiveb) - 1] = '\0';
+        fgets(adjective00, sizeof(adjective00), stdin); 
+        adjective00[strlen(adjective00) - 1] = '\0';
 
-        printf("\ngarb\n");
+        printf("\nYour eyes are a %s blue\n", adjective0);
+        printf("So why can't I be %s through you?\n", verba);
+        printf("I find it hard to see us %s\n", verbb);
+        printf("The other boys are %s to reach out to me\n", adjective00);
+        printf("Only want to talk to %s", nouna);
     }
     else {
-        printf("Okay, bye then!\n");
+        printf("\nOkay, bye then!\n");
     }
 
     return 0;
