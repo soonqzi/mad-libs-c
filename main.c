@@ -30,7 +30,7 @@ int main() {
     adjective2[strlen(adjective2) - 1] = '\0';
 
     printf("\nThere was this %s in the distance.\n", noun);
-    printf("I wasn't sure if it was %s or %s, so I went and took a closer look.\n", verb1, verb2);
+    printf("I wasn't sure if it was %s or %s, so I went to take a closer look.\n", verb1, verb2);
     printf("It was incredibly %s, but also a little %s.\n", adjective1, adjective2);
     printf("Then I realised...I was that %s.\n", noun);
 
@@ -67,11 +67,10 @@ int main() {
         fgets(adjective00, sizeof(adjective00), stdin); 
         adjective00[strlen(adjective00) - 1] = '\0';
 
-        printf("\nYour eyes are a %s blue\n", adjective0);
-        printf("So why can't I be %s through you?\n", verba);
-        printf("I find it hard to see us %s\n", verbb);
-        printf("The other boys are %s to reach out to me\n", adjective00);
-        printf("Only want to talk to %s", nouna);
+        printf("\nI was in a tremendously %s place.\n", adjective0);
+        printf("My body was %s, but also %s...somehow.\n", verba, verbb);
+        printf("The people up in front were weirdly %s.\n", adjective00);
+        printf("And I only wanted to talk to %s(s).", nouna);
     }
     else {
         printf("\nOkay, bye then!\n");
