@@ -70,7 +70,7 @@ int main() {
         printf("\nI was in a tremendously %s place.\n", adjective0);
         printf("My body was %s, but also %s...somehow.\n", verba, verbb);
         printf("The people up in front were weirdly %s.\n", adjective00);
-        printf("And I only wanted to talk to %s(s).", nouna);
+        printf("And I only wanted to talk to %s(s). \n\n", nouna);
     }
     else {
         printf("\nOkay, bye then!\n");
