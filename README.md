@@ -92,7 +92,7 @@ git clone https://github.com/soonqzi/mad-libs-c.git
 cd mad-libs-c
 ``` 
 
-3. Run the application.
+3. Run the application:
 
 ### Windows
 
